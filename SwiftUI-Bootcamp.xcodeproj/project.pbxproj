@@ -11,6 +11,10 @@
 		110C64CF26738B6F00C3E7CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110C64CE26738B6F00C3E7CF /* ContentView.swift */; };
 		110C64D126738B7200C3E7CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110C64D026738B7200C3E7CF /* Assets.xcassets */; };
 		110C64D426738B7200C3E7CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110C64D326738B7200C3E7CF /* Preview Assets.xcassets */; };
+		110C64DD26738DC900C3E7CF /* Text_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110C64DC26738DC900C3E7CF /* Text_.swift */; };
+		110C64DF267390F900C3E7CF /* Shape_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110C64DE267390F900C3E7CF /* Shape_.swift */; };
+		110C64E126739A8E00C3E7CF /* Color_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110C64E026739A8E00C3E7CF /* Color_.swift */; };
+		110C64E326739E4B00C3E7CF /* Gradients_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110C64E226739E4B00C3E7CF /* Gradients_.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		110C64D026738B7200C3E7CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		110C64D326738B7200C3E7CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		110C64D526738B7200C3E7CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110C64DC26738DC900C3E7CF /* Text_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_.swift; sourceTree = "<group>"; };
+		110C64DE267390F900C3E7CF /* Shape_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape_.swift; sourceTree = "<group>"; };
+		110C64E026739A8E00C3E7CF /* Color_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_.swift; sourceTree = "<group>"; };
+		110C64E226739E4B00C3E7CF /* Gradients_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients_.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,7 @@
 		110C64CB26738B6F00C3E7CF /* SwiftUI-Bootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				110C64DB26738DAD00C3E7CF /* Bootcamps */,
 				110C64CC26738B6F00C3E7CF /* SwiftUI_BootcampApp.swift */,
 				110C64CE26738B6F00C3E7CF /* ContentView.swift */,
 				110C64D026738B7200C3E7CF /* Assets.xcassets */,
@@ -67,6 +76,17 @@
 				110C64D326738B7200C3E7CF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		110C64DB26738DAD00C3E7CF /* Bootcamps */ = {
+			isa = PBXGroup;
+			children = (
+				110C64DC26738DC900C3E7CF /* Text_.swift */,
+				110C64DE267390F900C3E7CF /* Shape_.swift */,
+				110C64E026739A8E00C3E7CF /* Color_.swift */,
+				110C64E226739E4B00C3E7CF /* Gradients_.swift */,
+			);
+			path = Bootcamps;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				110C64DD26738DC900C3E7CF /* Text_.swift in Sources */,
+				110C64E126739A8E00C3E7CF /* Color_.swift in Sources */,
 				110C64CF26738B6F00C3E7CF /* ContentView.swift in Sources */,
 				110C64CD26738B6F00C3E7CF /* SwiftUI_BootcampApp.swift in Sources */,
+				110C64DF267390F900C3E7CF /* Shape_.swift in Sources */,
+				110C64E326739E4B00C3E7CF /* Gradients_.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

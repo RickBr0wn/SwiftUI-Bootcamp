@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+
+/// - https://youtu.be/N-ntKJdVNBs
 struct ContentView: View {
     var body: some View {
         Text("Hello, world!")
@@ -19,3 +21,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
