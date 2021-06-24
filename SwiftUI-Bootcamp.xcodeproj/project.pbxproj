@@ -18,6 +18,7 @@
 		110C64E52673A9D900C3E7CF /* Icon_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110C64E42673A9D900C3E7CF /* Icon_.swift */; };
 		11DBF3F02684EB1300BF6B80 /* Image_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3EF2684EB1300BF6B80 /* Image_.swift */; };
 		11DBF3F22684EDBA00BF6B80 /* Frame_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F12684EDBA00BF6B80 /* Frame_.swift */; };
+		11DBF3F42684F2ED00BF6B80 /* BackgroundsAndOverlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F32684F2ED00BF6B80 /* BackgroundsAndOverlays.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		110C64E42673A9D900C3E7CF /* Icon_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon_.swift; sourceTree = "<group>"; };
 		11DBF3EF2684EB1300BF6B80 /* Image_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_.swift; sourceTree = "<group>"; };
 		11DBF3F12684EDBA00BF6B80 /* Frame_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame_.swift; sourceTree = "<group>"; };
+		11DBF3F32684F2ED00BF6B80 /* BackgroundsAndOverlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundsAndOverlays.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				110C64E42673A9D900C3E7CF /* Icon_.swift */,
 				11DBF3EF2684EB1300BF6B80 /* Image_.swift */,
 				11DBF3F12684EDBA00BF6B80 /* Frame_.swift */,
+				11DBF3F32684F2ED00BF6B80 /* BackgroundsAndOverlays.swift */,
 			);
 			path = Bootcamps;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			files = (
 				110C64E52673A9D900C3E7CF /* Icon_.swift in Sources */,
 				11DBF3F02684EB1300BF6B80 /* Image_.swift in Sources */,
+				11DBF3F42684F2ED00BF6B80 /* BackgroundsAndOverlays.swift in Sources */,
 				110C64DD26738DC900C3E7CF /* Text_.swift in Sources */,
 				110C64E126739A8E00C3E7CF /* Color_.swift in Sources */,
 				110C64CF26738B6F00C3E7CF /* ContentView.swift in Sources */,
