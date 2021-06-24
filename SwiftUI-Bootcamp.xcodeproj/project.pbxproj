@@ -21,6 +21,7 @@
 		11DBF3F42684F2ED00BF6B80 /* BackgroundsAndOverlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F32684F2ED00BF6B80 /* BackgroundsAndOverlays.swift */; };
 		11DBF3F62685216900BF6B80 /* Stacks_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F52685216900BF6B80 /* Stacks_.swift */; };
 		11DBF3F8268521D900BF6B80 /* Spacer_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F7268521D900BF6B80 /* Spacer_.swift */; };
+		11DBF3FA2685224B00BF6B80 /* Initializer_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F92685224B00BF6B80 /* Initializer_.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		11DBF3F32684F2ED00BF6B80 /* BackgroundsAndOverlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundsAndOverlays.swift; sourceTree = "<group>"; };
 		11DBF3F52685216900BF6B80 /* Stacks_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacks_.swift; sourceTree = "<group>"; };
 		11DBF3F7268521D900BF6B80 /* Spacer_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer_.swift; sourceTree = "<group>"; };
+		11DBF3F92685224B00BF6B80 /* Initializer_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initializer_.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				11DBF3F12684EDBA00BF6B80 /* Frame_.swift */,
 				11DBF3F32684F2ED00BF6B80 /* BackgroundsAndOverlays.swift */,
 				11DBF3F52685216900BF6B80 /* Stacks_.swift */,
+				11DBF3F92685224B00BF6B80 /* Initializer_.swift */,
 			);
 			path = Bootcamps;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11DBF3FA2685224B00BF6B80 /* Initializer_.swift in Sources */,
 				110C64E52673A9D900C3E7CF /* Icon_.swift in Sources */,
 				11DBF3F02684EB1300BF6B80 /* Image_.swift in Sources */,
 				11DBF3F62685216900BF6B80 /* Stacks_.swift in Sources */,
