@@ -20,6 +20,7 @@
 		11DBF3F22684EDBA00BF6B80 /* Frame_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F12684EDBA00BF6B80 /* Frame_.swift */; };
 		11DBF3F42684F2ED00BF6B80 /* BackgroundsAndOverlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F32684F2ED00BF6B80 /* BackgroundsAndOverlays.swift */; };
 		11DBF3F62685216900BF6B80 /* Stacks_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F52685216900BF6B80 /* Stacks_.swift */; };
+		11DBF3F8268521D900BF6B80 /* Spacer_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F7268521D900BF6B80 /* Spacer_.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		11DBF3F12684EDBA00BF6B80 /* Frame_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame_.swift; sourceTree = "<group>"; };
 		11DBF3F32684F2ED00BF6B80 /* BackgroundsAndOverlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundsAndOverlays.swift; sourceTree = "<group>"; };
 		11DBF3F52685216900BF6B80 /* Stacks_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacks_.swift; sourceTree = "<group>"; };
+		11DBF3F7268521D900BF6B80 /* Spacer_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer_.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				110C64DE267390F900C3E7CF /* Shape_.swift */,
 				110C64E026739A8E00C3E7CF /* Color_.swift */,
 				110C64E226739E4B00C3E7CF /* Gradients_.swift */,
+				11DBF3F7268521D900BF6B80 /* Spacer_.swift */,
 				110C64E42673A9D900C3E7CF /* Icon_.swift */,
 				11DBF3EF2684EB1300BF6B80 /* Image_.swift */,
 				11DBF3F12684EDBA00BF6B80 /* Frame_.swift */,
@@ -178,6 +181,7 @@
 				11DBF3F62685216900BF6B80 /* Stacks_.swift in Sources */,
 				11DBF3F42684F2ED00BF6B80 /* BackgroundsAndOverlays.swift in Sources */,
 				110C64DD26738DC900C3E7CF /* Text_.swift in Sources */,
+				11DBF3F8268521D900BF6B80 /* Spacer_.swift in Sources */,
 				110C64E126739A8E00C3E7CF /* Color_.swift in Sources */,
 				110C64CF26738B6F00C3E7CF /* ContentView.swift in Sources */,
 				11DBF3F22684EDBA00BF6B80 /* Frame_.swift in Sources */,
