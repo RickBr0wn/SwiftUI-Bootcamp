@@ -11,7 +11,7 @@ struct Image_: View {
   var body: some View {
     VStack {
       Image("gecko")
-        .renderingMode(.template)
+        // .renderingMode(.template)
         .resizable()
         .scaledToFit()
         .foregroundColor(.green)
