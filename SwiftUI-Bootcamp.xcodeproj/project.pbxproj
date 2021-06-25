@@ -20,6 +20,7 @@
 		11A5050326852A6B005FD3B6 /* ScrollView_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A5050226852A6B005FD3B6 /* ScrollView_.swift */; };
 		11A5050526852D28005FD3B6 /* LazyGrid_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A5050426852D28005FD3B6 /* LazyGrid_.swift */; };
 		11A505072685354F005FD3B6 /* Binding_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A505062685354F005FD3B6 /* Binding_.swift */; };
+		11A5050A2685389C005FD3B6 /* LongPressGesture_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A505092685389C005FD3B6 /* LongPressGesture_.swift */; };
 		11DBF3F02684EB1300BF6B80 /* Image_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3EF2684EB1300BF6B80 /* Image_.swift */; };
 		11DBF3F22684EDBA00BF6B80 /* Frame_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F12684EDBA00BF6B80 /* Frame_.swift */; };
 		11DBF3F42684F2ED00BF6B80 /* BackgroundsAndOverlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F32684F2ED00BF6B80 /* BackgroundsAndOverlays.swift */; };
@@ -44,6 +45,7 @@
 		11A5050226852A6B005FD3B6 /* ScrollView_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView_.swift; sourceTree = "<group>"; };
 		11A5050426852D28005FD3B6 /* LazyGrid_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGrid_.swift; sourceTree = "<group>"; };
 		11A505062685354F005FD3B6 /* Binding_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding_.swift; sourceTree = "<group>"; };
+		11A505092685389C005FD3B6 /* LongPressGesture_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture_.swift; sourceTree = "<group>"; };
 		11DBF3EF2684EB1300BF6B80 /* Image_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_.swift; sourceTree = "<group>"; };
 		11DBF3F12684EDBA00BF6B80 /* Frame_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame_.swift; sourceTree = "<group>"; };
 		11DBF3F32684F2ED00BF6B80 /* BackgroundsAndOverlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundsAndOverlays.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		110C64CB26738B6F00C3E7CF /* SwiftUI-Bootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				11A505082685383A005FD3B6 /* Intermediate */,
 				110C64DB26738DAD00C3E7CF /* Bootcamps */,
 				110C64CC26738B6F00C3E7CF /* SwiftUI_BootcampApp.swift */,
 				110C64CE26738B6F00C3E7CF /* ContentView.swift */,
@@ -120,6 +123,14 @@
 				11A505062685354F005FD3B6 /* Binding_.swift */,
 			);
 			path = Bootcamps;
+			sourceTree = "<group>";
+		};
+		11A505082685383A005FD3B6 /* Intermediate */ = {
+			isa = PBXGroup;
+			children = (
+				11A505092685389C005FD3B6 /* LongPressGesture_.swift */,
+			);
+			path = Intermediate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11DBF3FA2685224B00BF6B80 /* Initializer_.swift in Sources */,
+				11A5050A2685389C005FD3B6 /* LongPressGesture_.swift in Sources */,
 				110C64E52673A9D900C3E7CF /* Icon_.swift in Sources */,
 				11DBF3F02684EB1300BF6B80 /* Image_.swift in Sources */,
 				11A5050526852D28005FD3B6 /* LazyGrid_.swift in Sources */,
