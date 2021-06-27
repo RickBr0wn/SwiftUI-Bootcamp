@@ -16,6 +16,7 @@
 		110C64E126739A8E00C3E7CF /* Color_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110C64E026739A8E00C3E7CF /* Color_.swift */; };
 		110C64E326739E4B00C3E7CF /* Gradients_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110C64E226739E4B00C3E7CF /* Gradients_.swift */; };
 		110C64E52673A9D900C3E7CF /* Icon_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110C64E42673A9D900C3E7CF /* Icon_.swift */; };
+		1161798826872BBC002BF371 /* MagnificationGesture_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161798726872BBC002BF371 /* MagnificationGesture_.swift */; };
 		11A50501268526BF005FD3B6 /* ForEach_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A50500268526BF005FD3B6 /* ForEach_.swift */; };
 		11A5050326852A6B005FD3B6 /* ScrollView_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A5050226852A6B005FD3B6 /* ScrollView_.swift */; };
 		11A5050526852D28005FD3B6 /* LazyGrid_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A5050426852D28005FD3B6 /* LazyGrid_.swift */; };
@@ -41,6 +42,7 @@
 		110C64E026739A8E00C3E7CF /* Color_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_.swift; sourceTree = "<group>"; };
 		110C64E226739E4B00C3E7CF /* Gradients_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients_.swift; sourceTree = "<group>"; };
 		110C64E42673A9D900C3E7CF /* Icon_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon_.swift; sourceTree = "<group>"; };
+		1161798726872BBC002BF371 /* MagnificationGesture_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGesture_.swift; sourceTree = "<group>"; };
 		11A50500268526BF005FD3B6 /* ForEach_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEach_.swift; sourceTree = "<group>"; };
 		11A5050226852A6B005FD3B6 /* ScrollView_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView_.swift; sourceTree = "<group>"; };
 		11A5050426852D28005FD3B6 /* LazyGrid_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGrid_.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				11A505092685389C005FD3B6 /* LongPressGesture_.swift */,
+				1161798726872BBC002BF371 /* MagnificationGesture_.swift */,
 			);
 			path = Intermediate;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				110C64E126739A8E00C3E7CF /* Color_.swift in Sources */,
 				110C64CF26738B6F00C3E7CF /* ContentView.swift in Sources */,
 				11DBF3F22684EDBA00BF6B80 /* Frame_.swift in Sources */,
+				1161798826872BBC002BF371 /* MagnificationGesture_.swift in Sources */,
 				110C64CD26738B6F00C3E7CF /* SwiftUI_BootcampApp.swift in Sources */,
 				110C64DF267390F900C3E7CF /* Shape_.swift in Sources */,
 				11A50501268526BF005FD3B6 /* ForEach_.swift in Sources */,
