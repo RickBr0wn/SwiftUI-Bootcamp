@@ -28,6 +28,7 @@
 		11DBF3F62685216900BF6B80 /* Stacks_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F52685216900BF6B80 /* Stacks_.swift */; };
 		11DBF3F8268521D900BF6B80 /* Spacer_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F7268521D900BF6B80 /* Spacer_.swift */; };
 		11DBF3FA2685224B00BF6B80 /* Initializer_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F92685224B00BF6B80 /* Initializer_.swift */; };
+		11F045772688BDBE00C75106 /* RotationGesture_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F045762688BDBE00C75106 /* RotationGesture_.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		11DBF3F52685216900BF6B80 /* Stacks_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacks_.swift; sourceTree = "<group>"; };
 		11DBF3F7268521D900BF6B80 /* Spacer_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer_.swift; sourceTree = "<group>"; };
 		11DBF3F92685224B00BF6B80 /* Initializer_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initializer_.swift; sourceTree = "<group>"; };
+		11F045762688BDBE00C75106 /* RotationGesture_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGesture_.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			children = (
 				11A505092685389C005FD3B6 /* LongPressGesture_.swift */,
 				1161798726872BBC002BF371 /* MagnificationGesture_.swift */,
+				11F045762688BDBE00C75106 /* RotationGesture_.swift */,
 			);
 			path = Intermediate;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				11DBF3F22684EDBA00BF6B80 /* Frame_.swift in Sources */,
 				1161798826872BBC002BF371 /* MagnificationGesture_.swift in Sources */,
 				110C64CD26738B6F00C3E7CF /* SwiftUI_BootcampApp.swift in Sources */,
+				11F045772688BDBE00C75106 /* RotationGesture_.swift in Sources */,
 				110C64DF267390F900C3E7CF /* Shape_.swift in Sources */,
 				11A50501268526BF005FD3B6 /* ForEach_.swift in Sources */,
 				110C64E326739E4B00C3E7CF /* Gradients_.swift in Sources */,
