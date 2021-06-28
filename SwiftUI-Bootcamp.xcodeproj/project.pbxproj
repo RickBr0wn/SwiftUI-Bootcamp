@@ -22,6 +22,7 @@
 		11A5050526852D28005FD3B6 /* LazyGrid_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A5050426852D28005FD3B6 /* LazyGrid_.swift */; };
 		11A505072685354F005FD3B6 /* Binding_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A505062685354F005FD3B6 /* Binding_.swift */; };
 		11A5050A2685389C005FD3B6 /* LongPressGesture_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A505092685389C005FD3B6 /* LongPressGesture_.swift */; };
+		11BF96382688CF0D00EE6697 /* ScrollViewReader_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF96372688CF0D00EE6697 /* ScrollViewReader_.swift */; };
 		11DBF3F02684EB1300BF6B80 /* Image_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3EF2684EB1300BF6B80 /* Image_.swift */; };
 		11DBF3F22684EDBA00BF6B80 /* Frame_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F12684EDBA00BF6B80 /* Frame_.swift */; };
 		11DBF3F42684F2ED00BF6B80 /* BackgroundsAndOverlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F32684F2ED00BF6B80 /* BackgroundsAndOverlays.swift */; };
@@ -51,6 +52,7 @@
 		11A5050426852D28005FD3B6 /* LazyGrid_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGrid_.swift; sourceTree = "<group>"; };
 		11A505062685354F005FD3B6 /* Binding_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding_.swift; sourceTree = "<group>"; };
 		11A505092685389C005FD3B6 /* LongPressGesture_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture_.swift; sourceTree = "<group>"; };
+		11BF96372688CF0D00EE6697 /* ScrollViewReader_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReader_.swift; sourceTree = "<group>"; };
 		11DBF3EF2684EB1300BF6B80 /* Image_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_.swift; sourceTree = "<group>"; };
 		11DBF3F12684EDBA00BF6B80 /* Frame_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame_.swift; sourceTree = "<group>"; };
 		11DBF3F32684F2ED00BF6B80 /* BackgroundsAndOverlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundsAndOverlays.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				11F045762688BDBE00C75106 /* RotationGesture_.swift */,
 				11F045782688C00A00C75106 /* DragGesture_.swift */,
 				11F0457A2688C53A00C75106 /* DragGestureTwo_.swift */,
+				11BF96372688CF0D00EE6697 /* ScrollViewReader_.swift */,
 			);
 			path = Intermediate;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				110C64DD26738DC900C3E7CF /* Text_.swift in Sources */,
 				11DBF3F8268521D900BF6B80 /* Spacer_.swift in Sources */,
 				110C64E126739A8E00C3E7CF /* Color_.swift in Sources */,
+				11BF96382688CF0D00EE6697 /* ScrollViewReader_.swift in Sources */,
 				110C64CF26738B6F00C3E7CF /* ContentView.swift in Sources */,
 				11DBF3F22684EDBA00BF6B80 /* Frame_.swift in Sources */,
 				1161798826872BBC002BF371 /* MagnificationGesture_.swift in Sources */,
