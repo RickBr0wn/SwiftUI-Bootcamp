@@ -26,6 +26,9 @@
 		11BF963A2689BC4600EE6697 /* GeometryReader_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF96392689BC4600EE6697 /* GeometryReader_.swift */; };
 		11BF963C2689C34600EE6697 /* MultipleSheetsFromSingleView_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF963B2689C34600EE6697 /* MultipleSheetsFromSingleView_.swift */; };
 		11BF963E2689CB5A00EE6697 /* Mask_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF963D2689CB5A00EE6697 /* Mask_.swift */; };
+		11BF96402689D5BC00EE6697 /* SoundEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF963F2689D5BC00EE6697 /* SoundEffects.swift */; };
+		11BF96442689D92A00EE6697 /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11BF96422689D92900EE6697 /* badum.mp3 */; };
+		11BF96452689D92A00EE6697 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11BF96432689D92A00EE6697 /* tada.mp3 */; };
 		11DBF3F02684EB1300BF6B80 /* Image_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3EF2684EB1300BF6B80 /* Image_.swift */; };
 		11DBF3F22684EDBA00BF6B80 /* Frame_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F12684EDBA00BF6B80 /* Frame_.swift */; };
 		11DBF3F42684F2ED00BF6B80 /* BackgroundsAndOverlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F32684F2ED00BF6B80 /* BackgroundsAndOverlays.swift */; };
@@ -59,6 +62,9 @@
 		11BF96392689BC4600EE6697 /* GeometryReader_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_.swift; sourceTree = "<group>"; };
 		11BF963B2689C34600EE6697 /* MultipleSheetsFromSingleView_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsFromSingleView_.swift; sourceTree = "<group>"; };
 		11BF963D2689CB5A00EE6697 /* Mask_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask_.swift; sourceTree = "<group>"; };
+		11BF963F2689D5BC00EE6697 /* SoundEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEffects.swift; sourceTree = "<group>"; };
+		11BF96422689D92900EE6697 /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
+		11BF96432689D92A00EE6697 /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
 		11DBF3EF2684EB1300BF6B80 /* Image_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_.swift; sourceTree = "<group>"; };
 		11DBF3F12684EDBA00BF6B80 /* Frame_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame_.swift; sourceTree = "<group>"; };
 		11DBF3F32684F2ED00BF6B80 /* BackgroundsAndOverlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundsAndOverlays.swift; sourceTree = "<group>"; };
@@ -144,6 +150,7 @@
 		11A505082685383A005FD3B6 /* Intermediate */ = {
 			isa = PBXGroup;
 			children = (
+				11BF96412689D91500EE6697 /* Sounds */,
 				11A505092685389C005FD3B6 /* LongPressGesture_.swift */,
 				1161798726872BBC002BF371 /* MagnificationGesture_.swift */,
 				11F045762688BDBE00C75106 /* RotationGesture_.swift */,
@@ -153,8 +160,18 @@
 				11BF96392689BC4600EE6697 /* GeometryReader_.swift */,
 				11BF963B2689C34600EE6697 /* MultipleSheetsFromSingleView_.swift */,
 				11BF963D2689CB5A00EE6697 /* Mask_.swift */,
+				11BF963F2689D5BC00EE6697 /* SoundEffects.swift */,
 			);
 			path = Intermediate;
+			sourceTree = "<group>";
+		};
+		11BF96412689D91500EE6697 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				11BF96422689D92900EE6697 /* badum.mp3 */,
+				11BF96432689D92A00EE6697 /* tada.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,7 +231,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11BF96452689D92A00EE6697 /* tada.mp3 in Resources */,
 				110C64D426738B7200C3E7CF /* Preview Assets.xcassets in Resources */,
+				11BF96442689D92A00EE6697 /* badum.mp3 in Resources */,
 				110C64D126738B7200C3E7CF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +271,7 @@
 				110C64E326739E4B00C3E7CF /* Gradients_.swift in Sources */,
 				11F0457B2688C53A00C75106 /* DragGestureTwo_.swift in Sources */,
 				11A5050326852A6B005FD3B6 /* ScrollView_.swift in Sources */,
+				11BF96402689D5BC00EE6697 /* SoundEffects.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
