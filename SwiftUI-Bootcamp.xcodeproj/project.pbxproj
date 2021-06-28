@@ -25,6 +25,7 @@
 		11BF96382688CF0D00EE6697 /* ScrollViewReader_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF96372688CF0D00EE6697 /* ScrollViewReader_.swift */; };
 		11BF963A2689BC4600EE6697 /* GeometryReader_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF96392689BC4600EE6697 /* GeometryReader_.swift */; };
 		11BF963C2689C34600EE6697 /* MultipleSheetsFromSingleView_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF963B2689C34600EE6697 /* MultipleSheetsFromSingleView_.swift */; };
+		11BF963E2689CB5A00EE6697 /* Mask_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF963D2689CB5A00EE6697 /* Mask_.swift */; };
 		11DBF3F02684EB1300BF6B80 /* Image_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3EF2684EB1300BF6B80 /* Image_.swift */; };
 		11DBF3F22684EDBA00BF6B80 /* Frame_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F12684EDBA00BF6B80 /* Frame_.swift */; };
 		11DBF3F42684F2ED00BF6B80 /* BackgroundsAndOverlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F32684F2ED00BF6B80 /* BackgroundsAndOverlays.swift */; };
@@ -57,6 +58,7 @@
 		11BF96372688CF0D00EE6697 /* ScrollViewReader_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReader_.swift; sourceTree = "<group>"; };
 		11BF96392689BC4600EE6697 /* GeometryReader_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_.swift; sourceTree = "<group>"; };
 		11BF963B2689C34600EE6697 /* MultipleSheetsFromSingleView_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsFromSingleView_.swift; sourceTree = "<group>"; };
+		11BF963D2689CB5A00EE6697 /* Mask_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask_.swift; sourceTree = "<group>"; };
 		11DBF3EF2684EB1300BF6B80 /* Image_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_.swift; sourceTree = "<group>"; };
 		11DBF3F12684EDBA00BF6B80 /* Frame_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame_.swift; sourceTree = "<group>"; };
 		11DBF3F32684F2ED00BF6B80 /* BackgroundsAndOverlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundsAndOverlays.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				11BF96372688CF0D00EE6697 /* ScrollViewReader_.swift */,
 				11BF96392689BC4600EE6697 /* GeometryReader_.swift */,
 				11BF963B2689C34600EE6697 /* MultipleSheetsFromSingleView_.swift */,
+				11BF963D2689CB5A00EE6697 /* Mask_.swift */,
 			);
 			path = Intermediate;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				11BF96382688CF0D00EE6697 /* ScrollViewReader_.swift in Sources */,
 				110C64CF26738B6F00C3E7CF /* ContentView.swift in Sources */,
 				11BF963A2689BC4600EE6697 /* GeometryReader_.swift in Sources */,
+				11BF963E2689CB5A00EE6697 /* Mask_.swift in Sources */,
 				11DBF3F22684EDBA00BF6B80 /* Frame_.swift in Sources */,
 				1161798826872BBC002BF371 /* MagnificationGesture_.swift in Sources */,
 				11BF963C2689C34600EE6697 /* MultipleSheetsFromSingleView_.swift in Sources */,
