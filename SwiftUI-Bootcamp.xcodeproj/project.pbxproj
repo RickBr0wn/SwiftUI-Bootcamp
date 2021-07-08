@@ -17,6 +17,7 @@
 		110C64E326739E4B00C3E7CF /* Gradients_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110C64E226739E4B00C3E7CF /* Gradients_.swift */; };
 		110C64E52673A9D900C3E7CF /* Icon_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110C64E42673A9D900C3E7CF /* Icon_.swift */; };
 		1161798826872BBC002BF371 /* MagnificationGesture_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161798726872BBC002BF371 /* MagnificationGesture_.swift */; };
+		1173A7962696F31B00E24332 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1173A7942696F31B00E24332 /* FruitsContainer.xcdatamodeld */; };
 		11A50501268526BF005FD3B6 /* ForEach_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A50500268526BF005FD3B6 /* ForEach_.swift */; };
 		11A5050326852A6B005FD3B6 /* ScrollView_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A5050226852A6B005FD3B6 /* ScrollView_.swift */; };
 		11A5050526852D28005FD3B6 /* LazyGrid_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A5050426852D28005FD3B6 /* LazyGrid_.swift */; };
@@ -30,6 +31,7 @@
 		11BF96442689D92A00EE6697 /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11BF96422689D92900EE6697 /* badum.mp3 */; };
 		11BF96452689D92A00EE6697 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11BF96432689D92A00EE6697 /* tada.mp3 */; };
 		11BF96472689DBD300EE6697 /* Haptics_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF96462689DBD300EE6697 /* Haptics_.swift */; };
+		11BF96492689E2A500EE6697 /* CoreData_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF96482689E2A500EE6697 /* CoreData_.swift */; };
 		11DBF3F02684EB1300BF6B80 /* Image_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3EF2684EB1300BF6B80 /* Image_.swift */; };
 		11DBF3F22684EDBA00BF6B80 /* Frame_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F12684EDBA00BF6B80 /* Frame_.swift */; };
 		11DBF3F42684F2ED00BF6B80 /* BackgroundsAndOverlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F32684F2ED00BF6B80 /* BackgroundsAndOverlays.swift */; };
@@ -54,6 +56,7 @@
 		110C64E226739E4B00C3E7CF /* Gradients_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients_.swift; sourceTree = "<group>"; };
 		110C64E42673A9D900C3E7CF /* Icon_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon_.swift; sourceTree = "<group>"; };
 		1161798726872BBC002BF371 /* MagnificationGesture_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGesture_.swift; sourceTree = "<group>"; };
+		1173A7952696F31B00E24332 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 		11A50500268526BF005FD3B6 /* ForEach_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEach_.swift; sourceTree = "<group>"; };
 		11A5050226852A6B005FD3B6 /* ScrollView_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView_.swift; sourceTree = "<group>"; };
 		11A5050426852D28005FD3B6 /* LazyGrid_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGrid_.swift; sourceTree = "<group>"; };
@@ -67,6 +70,7 @@
 		11BF96422689D92900EE6697 /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
 		11BF96432689D92A00EE6697 /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
 		11BF96462689DBD300EE6697 /* Haptics_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics_.swift; sourceTree = "<group>"; };
+		11BF96482689E2A500EE6697 /* CoreData_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData_.swift; sourceTree = "<group>"; };
 		11DBF3EF2684EB1300BF6B80 /* Image_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_.swift; sourceTree = "<group>"; };
 		11DBF3F12684EDBA00BF6B80 /* Frame_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame_.swift; sourceTree = "<group>"; };
 		11DBF3F32684F2ED00BF6B80 /* BackgroundsAndOverlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundsAndOverlays.swift; sourceTree = "<group>"; };
@@ -149,6 +153,15 @@
 			path = Bootcamps;
 			sourceTree = "<group>";
 		};
+		1173A7932696F2F200E24332 /* CoreData_ */ = {
+			isa = PBXGroup;
+			children = (
+				11BF96482689E2A500EE6697 /* CoreData_.swift */,
+				1173A7942696F31B00E24332 /* FruitsContainer.xcdatamodeld */,
+			);
+			path = CoreData_;
+			sourceTree = "<group>";
+		};
 		11A505082685383A005FD3B6 /* Intermediate */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +177,7 @@
 				11BF963D2689CB5A00EE6697 /* Mask_.swift */,
 				11BF963F2689D5BC00EE6697 /* SoundEffects.swift */,
 				11BF96462689DBD300EE6697 /* Haptics_.swift */,
+				1173A7932696F2F200E24332 /* CoreData_ */,
 			);
 			path = Intermediate;
 			sourceTree = "<group>";
@@ -257,8 +271,10 @@
 				11F045792688C00A00C75106 /* DragGesture_.swift in Sources */,
 				11DBF3F42684F2ED00BF6B80 /* BackgroundsAndOverlays.swift in Sources */,
 				11A505072685354F005FD3B6 /* Binding_.swift in Sources */,
+				11BF96492689E2A500EE6697 /* CoreData_.swift in Sources */,
 				110C64DD26738DC900C3E7CF /* Text_.swift in Sources */,
 				11DBF3F8268521D900BF6B80 /* Spacer_.swift in Sources */,
+				1173A7962696F31B00E24332 /* FruitsContainer.xcdatamodeld in Sources */,
 				110C64E126739A8E00C3E7CF /* Color_.swift in Sources */,
 				11BF96382688CF0D00EE6697 /* ScrollViewReader_.swift in Sources */,
 				110C64CF26738B6F00C3E7CF /* ContentView.swift in Sources */,
@@ -464,6 +480,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1173A7942696F31B00E24332 /* FruitsContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1173A7952696F31B00E24332 /* FruitsContainer.xcdatamodel */,
+			);
+			currentVersion = 1173A7952696F31B00E24332 /* FruitsContainer.xcdatamodel */;
+			path = FruitsContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 110C64C126738B6F00C3E7CF /* Project object */;
 }
