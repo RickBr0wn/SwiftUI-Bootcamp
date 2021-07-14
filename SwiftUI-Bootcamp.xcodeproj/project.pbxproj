@@ -21,6 +21,7 @@
 		1173A7962696F31B00E24332 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1173A7942696F31B00E24332 /* FruitsContainer.xcdatamodeld */; };
 		1180A348269F166A004E8E85 /* QueuesAndThreads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1180A347269F166A004E8E85 /* QueuesAndThreads.swift */; };
 		1180A34A269F1D54004E8E85 /* WeakSelf_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1180A349269F1D54004E8E85 /* WeakSelf_.swift */; };
+		1180A34C269F2736004E8E85 /* TypeAlias_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1180A34B269F2736004E8E85 /* TypeAlias_.swift */; };
 		11A50501268526BF005FD3B6 /* ForEach_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A50500268526BF005FD3B6 /* ForEach_.swift */; };
 		11A5050326852A6B005FD3B6 /* ScrollView_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A5050226852A6B005FD3B6 /* ScrollView_.swift */; };
 		11A5050526852D28005FD3B6 /* LazyGrid_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A5050426852D28005FD3B6 /* LazyGrid_.swift */; };
@@ -63,6 +64,7 @@
 		1173A7952696F31B00E24332 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 		1180A347269F166A004E8E85 /* QueuesAndThreads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueuesAndThreads.swift; sourceTree = "<group>"; };
 		1180A349269F1D54004E8E85 /* WeakSelf_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelf_.swift; sourceTree = "<group>"; };
+		1180A34B269F2736004E8E85 /* TypeAlias_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias_.swift; sourceTree = "<group>"; };
 		11A50500268526BF005FD3B6 /* ForEach_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEach_.swift; sourceTree = "<group>"; };
 		11A5050226852A6B005FD3B6 /* ScrollView_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView_.swift; sourceTree = "<group>"; };
 		11A5050426852D28005FD3B6 /* LazyGrid_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGrid_.swift; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 				1147E6962696FE2C00697A11 /* Codable_.swift */,
 				1180A347269F166A004E8E85 /* QueuesAndThreads.swift */,
 				1180A349269F1D54004E8E85 /* WeakSelf_.swift */,
+				1180A34B269F2736004E8E85 /* TypeAlias_.swift */,
 			);
 			path = Intermediate;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				11BF963A2689BC4600EE6697 /* GeometryReader_.swift in Sources */,
 				11BF963E2689CB5A00EE6697 /* Mask_.swift in Sources */,
 				11DBF3F22684EDBA00BF6B80 /* Frame_.swift in Sources */,
+				1180A34C269F2736004E8E85 /* TypeAlias_.swift in Sources */,
 				1161798826872BBC002BF371 /* MagnificationGesture_.swift in Sources */,
 				11BF963C2689C34600EE6697 /* MultipleSheetsFromSingleView_.swift in Sources */,
 				110C64CD26738B6F00C3E7CF /* SwiftUI_BootcampApp.swift in Sources */,
