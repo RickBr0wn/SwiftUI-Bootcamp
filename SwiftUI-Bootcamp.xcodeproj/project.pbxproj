@@ -16,12 +16,14 @@
 		110C64E126739A8E00C3E7CF /* Color_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110C64E026739A8E00C3E7CF /* Color_.swift */; };
 		110C64E326739E4B00C3E7CF /* Gradients_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110C64E226739E4B00C3E7CF /* Gradients_.swift */; };
 		110C64E52673A9D900C3E7CF /* Icon_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110C64E42673A9D900C3E7CF /* Icon_.swift */; };
+		113A56CE26B9CE2B00FD62D0 /* DownloadJSONDataFromInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113A56CD26B9CE2B00FD62D0 /* DownloadJSONDataFromInternet.swift */; };
 		1147E6972696FE2C00697A11 /* Codable_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1147E6962696FE2C00697A11 /* Codable_.swift */; };
 		1161798826872BBC002BF371 /* MagnificationGesture_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161798726872BBC002BF371 /* MagnificationGesture_.swift */; };
 		1173A7962696F31B00E24332 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1173A7942696F31B00E24332 /* FruitsContainer.xcdatamodeld */; };
 		1180A348269F166A004E8E85 /* QueuesAndThreads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1180A347269F166A004E8E85 /* QueuesAndThreads.swift */; };
 		1180A34A269F1D54004E8E85 /* WeakSelf_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1180A349269F1D54004E8E85 /* WeakSelf_.swift */; };
 		1180A34C269F2736004E8E85 /* TypeAlias_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1180A34B269F2736004E8E85 /* TypeAlias_.swift */; };
+		1180A34E269F2963004E8E85 /* @escaping_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1180A34D269F2963004E8E85 /* @escaping_.swift */; };
 		11A50501268526BF005FD3B6 /* ForEach_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A50500268526BF005FD3B6 /* ForEach_.swift */; };
 		11A5050326852A6B005FD3B6 /* ScrollView_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A5050226852A6B005FD3B6 /* ScrollView_.swift */; };
 		11A5050526852D28005FD3B6 /* LazyGrid_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A5050426852D28005FD3B6 /* LazyGrid_.swift */; };
@@ -59,12 +61,14 @@
 		110C64E026739A8E00C3E7CF /* Color_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_.swift; sourceTree = "<group>"; };
 		110C64E226739E4B00C3E7CF /* Gradients_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients_.swift; sourceTree = "<group>"; };
 		110C64E42673A9D900C3E7CF /* Icon_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon_.swift; sourceTree = "<group>"; };
+		113A56CD26B9CE2B00FD62D0 /* DownloadJSONDataFromInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadJSONDataFromInternet.swift; sourceTree = "<group>"; };
 		1147E6962696FE2C00697A11 /* Codable_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codable_.swift; sourceTree = "<group>"; };
 		1161798726872BBC002BF371 /* MagnificationGesture_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGesture_.swift; sourceTree = "<group>"; };
 		1173A7952696F31B00E24332 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 		1180A347269F166A004E8E85 /* QueuesAndThreads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueuesAndThreads.swift; sourceTree = "<group>"; };
 		1180A349269F1D54004E8E85 /* WeakSelf_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelf_.swift; sourceTree = "<group>"; };
 		1180A34B269F2736004E8E85 /* TypeAlias_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias_.swift; sourceTree = "<group>"; };
+		1180A34D269F2963004E8E85 /* @escaping_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "@escaping_.swift"; sourceTree = "<group>"; };
 		11A50500268526BF005FD3B6 /* ForEach_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEach_.swift; sourceTree = "<group>"; };
 		11A5050226852A6B005FD3B6 /* ScrollView_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView_.swift; sourceTree = "<group>"; };
 		11A5050426852D28005FD3B6 /* LazyGrid_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGrid_.swift; sourceTree = "<group>"; };
@@ -190,6 +194,8 @@
 				1180A347269F166A004E8E85 /* QueuesAndThreads.swift */,
 				1180A349269F1D54004E8E85 /* WeakSelf_.swift */,
 				1180A34B269F2736004E8E85 /* TypeAlias_.swift */,
+				1180A34D269F2963004E8E85 /* @escaping_.swift */,
+				113A56CD26B9CE2B00FD62D0 /* DownloadJSONDataFromInternet.swift */,
 			);
 			path = Intermediate;
 			sourceTree = "<group>";
@@ -284,6 +290,7 @@
 				1180A348269F166A004E8E85 /* QueuesAndThreads.swift in Sources */,
 				11DBF3F42684F2ED00BF6B80 /* BackgroundsAndOverlays.swift in Sources */,
 				11A505072685354F005FD3B6 /* Binding_.swift in Sources */,
+				113A56CE26B9CE2B00FD62D0 /* DownloadJSONDataFromInternet.swift in Sources */,
 				11BF96492689E2A500EE6697 /* CoreData_.swift in Sources */,
 				110C64DD26738DC900C3E7CF /* Text_.swift in Sources */,
 				11DBF3F8268521D900BF6B80 /* Spacer_.swift in Sources */,
@@ -297,6 +304,7 @@
 				1180A34C269F2736004E8E85 /* TypeAlias_.swift in Sources */,
 				1161798826872BBC002BF371 /* MagnificationGesture_.swift in Sources */,
 				11BF963C2689C34600EE6697 /* MultipleSheetsFromSingleView_.swift in Sources */,
+				1180A34E269F2963004E8E85 /* @escaping_.swift in Sources */,
 				110C64CD26738B6F00C3E7CF /* SwiftUI_BootcampApp.swift in Sources */,
 				11BF96472689DBD300EE6697 /* Haptics_.swift in Sources */,
 				1147E6972696FE2C00697A11 /* Codable_.swift in Sources */,
