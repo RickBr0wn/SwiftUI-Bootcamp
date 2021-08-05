@@ -46,6 +46,7 @@
 		11DBF3FA2685224B00BF6B80 /* Initializer_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F92685224B00BF6B80 /* Initializer_.swift */; };
 		11E053CF26BAC57900C5FB75 /* DownloadJSONDataWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E053CE26BAC57900C5FB75 /* DownloadJSONDataWithCombine.swift */; };
 		11E053D126BB20B200C5FB75 /* Timer_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E053D026BB20B200C5FB75 /* Timer_.swift */; };
+		11EE72E926BB3F81009E414D /* CustomerPublishersAndSubscribers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EE72E826BB3F81009E414D /* CustomerPublishersAndSubscribers.swift */; };
 		11F045772688BDBE00C75106 /* RotationGesture_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F045762688BDBE00C75106 /* RotationGesture_.swift */; };
 		11F045792688C00A00C75106 /* DragGesture_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F045782688C00A00C75106 /* DragGesture_.swift */; };
 		11F0457B2688C53A00C75106 /* DragGestureTwo_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F0457A2688C53A00C75106 /* DragGestureTwo_.swift */; };
@@ -93,6 +94,7 @@
 		11DBF3F92685224B00BF6B80 /* Initializer_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initializer_.swift; sourceTree = "<group>"; };
 		11E053CE26BAC57900C5FB75 /* DownloadJSONDataWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadJSONDataWithCombine.swift; sourceTree = "<group>"; };
 		11E053D026BB20B200C5FB75 /* Timer_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer_.swift; sourceTree = "<group>"; };
+		11EE72E826BB3F81009E414D /* CustomerPublishersAndSubscribers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerPublishersAndSubscribers.swift; sourceTree = "<group>"; };
 		11F045762688BDBE00C75106 /* RotationGesture_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGesture_.swift; sourceTree = "<group>"; };
 		11F045782688C00A00C75106 /* DragGesture_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_.swift; sourceTree = "<group>"; };
 		11F0457A2688C53A00C75106 /* DragGestureTwo_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureTwo_.swift; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 				113A56CD26B9CE2B00FD62D0 /* DownloadJSONDataFromInternet.swift */,
 				11E053CE26BAC57900C5FB75 /* DownloadJSONDataWithCombine.swift */,
 				11E053D026BB20B200C5FB75 /* Timer_.swift */,
+				11EE72E826BB3F81009E414D /* CustomerPublishersAndSubscribers.swift */,
 			);
 			path = Intermediate;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				11BF963E2689CB5A00EE6697 /* Mask_.swift in Sources */,
 				11DBF3F22684EDBA00BF6B80 /* Frame_.swift in Sources */,
 				1180A34C269F2736004E8E85 /* TypeAlias_.swift in Sources */,
+				11EE72E926BB3F81009E414D /* CustomerPublishersAndSubscribers.swift in Sources */,
 				1161798826872BBC002BF371 /* MagnificationGesture_.swift in Sources */,
 				11BF963C2689C34600EE6697 /* MultipleSheetsFromSingleView_.swift in Sources */,
 				1180A34E269F2963004E8E85 /* @escaping_.swift in Sources */,
