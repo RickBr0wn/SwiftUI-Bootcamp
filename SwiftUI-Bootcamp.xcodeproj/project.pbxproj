@@ -20,6 +20,7 @@
 		110EF45026BC0ED5000BB897 /* NSCache_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110EF44F26BC0ED5000BB897 /* NSCache_.swift */; };
 		112AF5A326E2C67C0086F631 /* ViewModifiers_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112AF5A226E2C67C0086F631 /* ViewModifiers_.swift */; };
 		112AF5A526E2C7F60086F631 /* ButtonStyle_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112AF5A426E2C7F60086F631 /* ButtonStyle_.swift */; };
+		112AF5A926E6A6A90086F631 /* AnyTransition_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112AF5A826E6A6A90086F631 /* AnyTransition_.swift */; };
 		113A56CE26B9CE2B00FD62D0 /* DownloadJSONDataFromInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113A56CD26B9CE2B00FD62D0 /* DownloadJSONDataFromInternet.swift */; };
 		1147E6972696FE2C00697A11 /* Codable_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1147E6962696FE2C00697A11 /* Codable_.swift */; };
 		1161798826872BBC002BF371 /* MagnificationGesture_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161798726872BBC002BF371 /* MagnificationGesture_.swift */; };
@@ -72,6 +73,7 @@
 		110EF44F26BC0ED5000BB897 /* NSCache_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSCache_.swift; sourceTree = "<group>"; };
 		112AF5A226E2C67C0086F631 /* ViewModifiers_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers_.swift; sourceTree = "<group>"; };
 		112AF5A426E2C7F60086F631 /* ButtonStyle_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle_.swift; sourceTree = "<group>"; };
+		112AF5A826E6A6A90086F631 /* AnyTransition_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransition_.swift; sourceTree = "<group>"; };
 		113A56CD26B9CE2B00FD62D0 /* DownloadJSONDataFromInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadJSONDataFromInternet.swift; sourceTree = "<group>"; };
 		1147E6962696FE2C00697A11 /* Codable_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codable_.swift; sourceTree = "<group>"; };
 		1161798726872BBC002BF371 /* MagnificationGesture_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGesture_.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 			children = (
 				112AF5A226E2C67C0086F631 /* ViewModifiers_.swift */,
 				112AF5A426E2C7F60086F631 /* ButtonStyle_.swift */,
+				112AF5A826E6A6A90086F631 /* AnyTransition_.swift */,
 			);
 			path = Advanced;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11DBF3FA2685224B00BF6B80 /* Initializer_.swift in Sources */,
+				112AF5A926E6A6A90086F631 /* AnyTransition_.swift in Sources */,
 				110EF45026BC0ED5000BB897 /* NSCache_.swift in Sources */,
 				11A5050A2685389C005FD3B6 /* LongPressGesture_.swift in Sources */,
 				112AF5A326E2C67C0086F631 /* ViewModifiers_.swift in Sources */,
