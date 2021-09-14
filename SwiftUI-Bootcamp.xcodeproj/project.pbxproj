@@ -55,6 +55,7 @@
 		11E053D126BB20B200C5FB75 /* Timer_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E053D026BB20B200C5FB75 /* Timer_.swift */; };
 		11EE72E926BB3F81009E414D /* CustomerPublishersAndSubscribers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EE72E826BB3F81009E414D /* CustomerPublishersAndSubscribers.swift */; };
 		11EF2A1D26F0D13C0058FAE5 /* CustomeShapesWithArcsAndQuadCurves_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EF2A1C26F0D13C0058FAE5 /* CustomeShapesWithArcsAndQuadCurves_.swift */; };
+		11EF2A2326F13A230058FAE5 /* Animations_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EF2A2226F13A230058FAE5 /* Animations_.swift */; };
 		11F045772688BDBE00C75106 /* RotationGesture_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F045762688BDBE00C75106 /* RotationGesture_.swift */; };
 		11F045792688C00A00C75106 /* DragGesture_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F045782688C00A00C75106 /* DragGesture_.swift */; };
 		11F0457B2688C53A00C75106 /* DragGestureTwo_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F0457A2688C53A00C75106 /* DragGestureTwo_.swift */; };
@@ -111,6 +112,7 @@
 		11E053D026BB20B200C5FB75 /* Timer_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer_.swift; sourceTree = "<group>"; };
 		11EE72E826BB3F81009E414D /* CustomerPublishersAndSubscribers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerPublishersAndSubscribers.swift; sourceTree = "<group>"; };
 		11EF2A1C26F0D13C0058FAE5 /* CustomeShapesWithArcsAndQuadCurves_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeShapesWithArcsAndQuadCurves_.swift; sourceTree = "<group>"; };
+		11EF2A2226F13A230058FAE5 /* Animations_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations_.swift; sourceTree = "<group>"; };
 		11F045762688BDBE00C75106 /* RotationGesture_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGesture_.swift; sourceTree = "<group>"; };
 		11F045782688C00A00C75106 /* DragGesture_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_.swift; sourceTree = "<group>"; };
 		11F0457A2688C53A00C75106 /* DragGestureTwo_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureTwo_.swift; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 				110C64E226739E4B00C3E7CF /* Gradients_.swift */,
 				11DBF3F7268521D900BF6B80 /* Spacer_.swift */,
 				110C64E42673A9D900C3E7CF /* Icon_.swift */,
+				11EF2A2226F13A230058FAE5 /* Animations_.swift */,
 				11DBF3EF2684EB1300BF6B80 /* Image_.swift */,
 				11DBF3F12684EDBA00BF6B80 /* Frame_.swift */,
 				11DBF3F32684F2ED00BF6B80 /* BackgroundsAndOverlays.swift */,
@@ -351,6 +354,7 @@
 				11DBF3F22684EDBA00BF6B80 /* Frame_.swift in Sources */,
 				1180A34C269F2736004E8E85 /* TypeAlias_.swift in Sources */,
 				11EE72E926BB3F81009E414D /* CustomerPublishersAndSubscribers.swift in Sources */,
+				11EF2A2326F13A230058FAE5 /* Animations_.swift in Sources */,
 				1161798826872BBC002BF371 /* MagnificationGesture_.swift in Sources */,
 				11BF963C2689C34600EE6697 /* MultipleSheetsFromSingleView_.swift in Sources */,
 				1180A34E269F2963004E8E85 /* @escaping_.swift in Sources */,
