@@ -21,6 +21,7 @@
 		112AF5A326E2C67C0086F631 /* ViewModifiers_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112AF5A226E2C67C0086F631 /* ViewModifiers_.swift */; };
 		112AF5A526E2C7F60086F631 /* ButtonStyle_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112AF5A426E2C7F60086F631 /* ButtonStyle_.swift */; };
 		112AF5A926E6A6A90086F631 /* AnyTransition_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112AF5A826E6A6A90086F631 /* AnyTransition_.swift */; };
+		112EC87026FD26D800D8D7BF /* ViewBuilder_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112EC86F26FD26D800D8D7BF /* ViewBuilder_.swift */; };
 		113A56CE26B9CE2B00FD62D0 /* DownloadJSONDataFromInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113A56CD26B9CE2B00FD62D0 /* DownloadJSONDataFromInternet.swift */; };
 		1147E6972696FE2C00697A11 /* Codable_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1147E6962696FE2C00697A11 /* Codable_.swift */; };
 		1161798826872BBC002BF371 /* MagnificationGesture_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161798726872BBC002BF371 /* MagnificationGesture_.swift */; };
@@ -80,6 +81,7 @@
 		112AF5A226E2C67C0086F631 /* ViewModifiers_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers_.swift; sourceTree = "<group>"; };
 		112AF5A426E2C7F60086F631 /* ButtonStyle_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle_.swift; sourceTree = "<group>"; };
 		112AF5A826E6A6A90086F631 /* AnyTransition_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransition_.swift; sourceTree = "<group>"; };
+		112EC86F26FD26D800D8D7BF /* ViewBuilder_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilder_.swift; sourceTree = "<group>"; };
 		113A56CD26B9CE2B00FD62D0 /* DownloadJSONDataFromInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadJSONDataFromInternet.swift; sourceTree = "<group>"; };
 		1147E6962696FE2C00697A11 /* Codable_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codable_.swift; sourceTree = "<group>"; };
 		1161798726872BBC002BF371 /* MagnificationGesture_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGesture_.swift; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 				1176992826ECF00E00308B90 /* MatchedGeometryEffect_.swift */,
 				11EF2A1C26F0D13C0058FAE5 /* CustomeShapesWithArcsAndQuadCurves_.swift */,
 				11C6BDF326FD1CA200B3415D /* Generics_.swift */,
+				112EC86F26FD26D800D8D7BF /* ViewBuilder_.swift */,
 			);
 			path = Advanced;
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 				11EF2A2526F13D9D0058FAE5 /* AnimationCurves_.swift in Sources */,
 				11F045772688BDBE00C75106 /* RotationGesture_.swift in Sources */,
 				110C64DF267390F900C3E7CF /* Shape_.swift in Sources */,
+				112EC87026FD26D800D8D7BF /* ViewBuilder_.swift in Sources */,
 				11A50501268526BF005FD3B6 /* ForEach_.swift in Sources */,
 				110C64E326739E4B00C3E7CF /* Gradients_.swift in Sources */,
 				11F0457B2688C53A00C75106 /* DragGestureTwo_.swift in Sources */,
