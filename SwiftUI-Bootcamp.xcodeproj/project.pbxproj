@@ -45,6 +45,7 @@
 		11BF96452689D92A00EE6697 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11BF96432689D92A00EE6697 /* tada.mp3 */; };
 		11BF96472689DBD300EE6697 /* Haptics_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF96462689DBD300EE6697 /* Haptics_.swift */; };
 		11BF96492689E2A500EE6697 /* CoreData_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF96482689E2A500EE6697 /* CoreData_.swift */; };
+		11C6BDF426FD1CA200B3415D /* Generics_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C6BDF326FD1CA200B3415D /* Generics_.swift */; };
 		11DBF3F02684EB1300BF6B80 /* Image_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3EF2684EB1300BF6B80 /* Image_.swift */; };
 		11DBF3F22684EDBA00BF6B80 /* Frame_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F12684EDBA00BF6B80 /* Frame_.swift */; };
 		11DBF3F42684F2ED00BF6B80 /* BackgroundsAndOverlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F32684F2ED00BF6B80 /* BackgroundsAndOverlays.swift */; };
@@ -103,6 +104,7 @@
 		11BF96432689D92A00EE6697 /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
 		11BF96462689DBD300EE6697 /* Haptics_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics_.swift; sourceTree = "<group>"; };
 		11BF96482689E2A500EE6697 /* CoreData_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData_.swift; sourceTree = "<group>"; };
+		11C6BDF326FD1CA200B3415D /* Generics_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics_.swift; sourceTree = "<group>"; };
 		11DBF3EF2684EB1300BF6B80 /* Image_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_.swift; sourceTree = "<group>"; };
 		11DBF3F12684EDBA00BF6B80 /* Frame_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame_.swift; sourceTree = "<group>"; };
 		11DBF3F32684F2ED00BF6B80 /* BackgroundsAndOverlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundsAndOverlays.swift; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 				112AF5A826E6A6A90086F631 /* AnyTransition_.swift */,
 				1176992826ECF00E00308B90 /* MatchedGeometryEffect_.swift */,
 				11EF2A1C26F0D13C0058FAE5 /* CustomeShapesWithArcsAndQuadCurves_.swift */,
+				11C6BDF326FD1CA200B3415D /* Generics_.swift */,
 			);
 			path = Advanced;
 			sourceTree = "<group>";
@@ -356,6 +359,7 @@
 				11BF963E2689CB5A00EE6697 /* Mask_.swift in Sources */,
 				11DBF3F22684EDBA00BF6B80 /* Frame_.swift in Sources */,
 				1180A34C269F2736004E8E85 /* TypeAlias_.swift in Sources */,
+				11C6BDF426FD1CA200B3415D /* Generics_.swift in Sources */,
 				11EE72E926BB3F81009E414D /* CustomerPublishersAndSubscribers.swift in Sources */,
 				11EF2A2326F13A230058FAE5 /* Animations_.swift in Sources */,
 				1161798826872BBC002BF371 /* MagnificationGesture_.swift in Sources */,
