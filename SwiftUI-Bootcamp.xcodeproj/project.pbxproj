@@ -34,6 +34,8 @@
 		1180A34A269F1D54004E8E85 /* WeakSelf_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1180A349269F1D54004E8E85 /* WeakSelf_.swift */; };
 		1180A34C269F2736004E8E85 /* TypeAlias_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1180A34B269F2736004E8E85 /* TypeAlias_.swift */; };
 		1180A34E269F2963004E8E85 /* @escaping_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1180A34D269F2963004E8E85 /* @escaping_.swift */; };
+		119ABC6C27060C0C00603CC0 /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119ABC6B27060C0C00603CC0 /* AppTabBarView.swift */; };
+		119ABC6E27060D4F00603CC0 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119ABC6D27060D4F00603CC0 /* CustomTabBarView.swift */; };
 		11A0996326EDE5CA00A9BECD /* CustomShapes_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A0996226EDE5CA00A9BECD /* CustomShapes_.swift */; };
 		11A50501268526BF005FD3B6 /* ForEach_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A50500268526BF005FD3B6 /* ForEach_.swift */; };
 		11A5050326852A6B005FD3B6 /* ScrollView_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A5050226852A6B005FD3B6 /* ScrollView_.swift */; };
@@ -97,6 +99,8 @@
 		1180A349269F1D54004E8E85 /* WeakSelf_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelf_.swift; sourceTree = "<group>"; };
 		1180A34B269F2736004E8E85 /* TypeAlias_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias_.swift; sourceTree = "<group>"; };
 		1180A34D269F2963004E8E85 /* @escaping_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "@escaping_.swift"; sourceTree = "<group>"; };
+		119ABC6B27060C0C00603CC0 /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
+		119ABC6D27060D4F00603CC0 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		11A0996226EDE5CA00A9BECD /* CustomShapes_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapes_.swift; sourceTree = "<group>"; };
 		11A50500268526BF005FD3B6 /* ForEach_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEach_.swift; sourceTree = "<group>"; };
 		11A5050226852A6B005FD3B6 /* ScrollView_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView_.swift; sourceTree = "<group>"; };
@@ -215,6 +219,7 @@
 				11EF2A1C26F0D13C0058FAE5 /* CustomeShapesWithArcsAndQuadCurves_.swift */,
 				11C6BDF326FD1CA200B3415D /* Generics_.swift */,
 				112EC86F26FD26D800D8D7BF /* ViewBuilder_.swift */,
+				119ABC6A27060BE400603CC0 /* CustomTabBar_ */,
 				114F5E212704D00C00F1737A /* PreferenceKey_ */,
 			);
 			path = Advanced;
@@ -237,6 +242,15 @@
 				1173A7942696F31B00E24332 /* FruitsContainer.xcdatamodeld */,
 			);
 			path = CoreData_;
+			sourceTree = "<group>";
+		};
+		119ABC6A27060BE400603CC0 /* CustomTabBar_ */ = {
+			isa = PBXGroup;
+			children = (
+				119ABC6B27060C0C00603CC0 /* AppTabBarView.swift */,
+				119ABC6D27060D4F00603CC0 /* CustomTabBarView.swift */,
+			);
+			path = CustomTabBar_;
 			sourceTree = "<group>";
 		};
 		11A505082685383A005FD3B6 /* Intermediate */ = {
@@ -372,6 +386,7 @@
 				110EF44E26BBF4A6000BB897 /* FileManager_.swift in Sources */,
 				110C64E126739A8E00C3E7CF /* Color_.swift in Sources */,
 				114F5E232704D38900F1737A /* ScrollViewOffsetPreferenceKey_.swift in Sources */,
+				119ABC6C27060C0C00603CC0 /* AppTabBarView.swift in Sources */,
 				11A0996326EDE5CA00A9BECD /* CustomShapes_.swift in Sources */,
 				11BF96382688CF0D00EE6697 /* ScrollViewReader_.swift in Sources */,
 				1176992926ECF00E00308B90 /* MatchedGeometryEffect_.swift in Sources */,
@@ -384,6 +399,7 @@
 				11EE72E926BB3F81009E414D /* CustomerPublishersAndSubscribers.swift in Sources */,
 				11EF2A2326F13A230058FAE5 /* Animations_.swift in Sources */,
 				1161798826872BBC002BF371 /* MagnificationGesture_.swift in Sources */,
+				119ABC6E27060D4F00603CC0 /* CustomTabBarView.swift in Sources */,
 				11BF963C2689C34600EE6697 /* MultipleSheetsFromSingleView_.swift in Sources */,
 				1180A34E269F2963004E8E85 /* @escaping_.swift in Sources */,
 				110C64CD26738B6F00C3E7CF /* SwiftUI_BootcampApp.swift in Sources */,
