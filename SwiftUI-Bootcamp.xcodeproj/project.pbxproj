@@ -35,6 +35,7 @@
 		1180A34C269F2736004E8E85 /* TypeAlias_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1180A34B269F2736004E8E85 /* TypeAlias_.swift */; };
 		1180A34E269F2963004E8E85 /* @escaping_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1180A34D269F2963004E8E85 /* @escaping_.swift */; };
 		11A0996326EDE5CA00A9BECD /* CustomShapes_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A0996226EDE5CA00A9BECD /* CustomShapes_.swift */; };
+		11A29F52272335200011AC53 /* DependencyInjection_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A29F51272335200011AC53 /* DependencyInjection_.swift */; };
 		11A50501268526BF005FD3B6 /* ForEach_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A50500268526BF005FD3B6 /* ForEach_.swift */; };
 		11A5050326852A6B005FD3B6 /* ScrollView_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A5050226852A6B005FD3B6 /* ScrollView_.swift */; };
 		11A5050526852D28005FD3B6 /* LazyGrid_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A5050426852D28005FD3B6 /* LazyGrid_.swift */; };
@@ -98,6 +99,7 @@
 		1180A34B269F2736004E8E85 /* TypeAlias_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias_.swift; sourceTree = "<group>"; };
 		1180A34D269F2963004E8E85 /* @escaping_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "@escaping_.swift"; sourceTree = "<group>"; };
 		11A0996226EDE5CA00A9BECD /* CustomShapes_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapes_.swift; sourceTree = "<group>"; };
+		11A29F51272335200011AC53 /* DependencyInjection_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjection_.swift; sourceTree = "<group>"; };
 		11A50500268526BF005FD3B6 /* ForEach_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEach_.swift; sourceTree = "<group>"; };
 		11A5050226852A6B005FD3B6 /* ScrollView_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView_.swift; sourceTree = "<group>"; };
 		11A5050426852D28005FD3B6 /* LazyGrid_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGrid_.swift; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 				11C6BDF326FD1CA200B3415D /* Generics_.swift */,
 				112EC86F26FD26D800D8D7BF /* ViewBuilder_.swift */,
 				114F5E212704D00C00F1737A /* PreferenceKey_ */,
+				11A29F51272335200011AC53 /* DependencyInjection_.swift */,
 			);
 			path = Advanced;
 			sourceTree = "<group>";
@@ -399,6 +402,7 @@
 				11F0457B2688C53A00C75106 /* DragGestureTwo_.swift in Sources */,
 				11A5050326852A6B005FD3B6 /* ScrollView_.swift in Sources */,
 				11E053D126BB20B200C5FB75 /* Timer_.swift in Sources */,
+				11A29F52272335200011AC53 /* DependencyInjection_.swift in Sources */,
 				1180A34A269F1D54004E8E85 /* WeakSelf_.swift in Sources */,
 				112AF5A526E2C7F60086F631 /* ButtonStyle_.swift in Sources */,
 				114F5E1E2704CB6A00F1737A /* PreferenceKey_.swift in Sources */,
