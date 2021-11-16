@@ -16,7 +16,7 @@ struct PostModel: Identifiable, Codable {
 }
 
 class DownloadJSONDataWithCombineViewModel: ObservableObject {
-  @Published var posts: Array<PostModel> = Array()
+  @Published var posts: Array<PostModel> = []
   var cancellables = Set<AnyCancellable>()
   
   init() {
@@ -28,13 +28,13 @@ class DownloadJSONDataWithCombineViewModel: ObservableObject {
     
     // create a publisher
     URLSession.shared.dataTaskPublisher(for: url)
-      // subcscribe the publisher on a background thread, not needed: URLSession.shared.dataTaskPublisher does this behind the scenes
+      // subscribe the publisher on a background thread, not needed: URLSession.shared.dataTaskPublisher does this behind the scenes
       .subscribe(on: DispatchQueue.global(qos: .background))
       // recieve on the main thread
       .receive(on: DispatchQueue.main)
       // tryMap (checking that the data is good
       .tryMap(handleOutput)
-      // decode the data in Array<PostModel>
+      // decode the data into Array<PostModel>
       .decode(type: Array<PostModel>.self, decoder: JSONDecoder())
       // sink
       .sink { completion in
@@ -43,7 +43,7 @@ class DownloadJSONDataWithCombineViewModel: ObservableObject {
         case .finished:
           print("finished")
         case .failure(let error):
-          // maybe use an alert?
+          // display the error some how
           print("Error: \(error.localizedDescription)")
         }
       } receiveValue: { [weak self] returnedPosts in
@@ -77,6 +77,7 @@ struct DownloadJSONDataWithCombine: View {
       }
     }
     .frame(maxWidth: .infinity, alignment: .leading)
+    .listStyle(PlainListStyle())
   }
 }
 

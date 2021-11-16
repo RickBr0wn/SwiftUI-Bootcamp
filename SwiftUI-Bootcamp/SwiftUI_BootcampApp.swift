@@ -9,9 +9,9 @@ import SwiftUI
 
 @main
 struct SwiftUI_BootcampApp: App {
-    var body: some Scene {
-        WindowGroup {
-          AnotherMatchedGeometryEffect_()
-        }
+  var body: some Scene {
+    WindowGroup {
+      StandardTabBarImplementation()
     }
+  }
 }
