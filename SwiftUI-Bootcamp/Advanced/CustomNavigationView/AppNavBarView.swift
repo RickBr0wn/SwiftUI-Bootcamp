@@ -9,14 +9,38 @@ import SwiftUI
 
 struct AppNavBarView: View {
   var body: some View {
-    NavigationView {
+    CustomNavView {
       ZStack {
-        Color.red.edgesIgnoringSafeArea(.all)
-        
-        NavigationLink("Blue") {
-          Color.green.edgesIgnoringSafeArea(.all)
+        Color.green
+        CustomNavLink {
+          Text("Destination ☺️")
+            .customNavBarItems(title: "dummy!", subtitle: "a fish!", hidesBackButton: false
+            )
+        } label: {
+          Text("GO!")
         }
       }
+      .customNavigationTitle("This is the title!!")
+      .customNavigationSubTitle("A subtitle is worth a million things!")
+      .customNavigationBackButtonHidden(true)
+    }
+  }
+}
+
+extension AppNavBarView {
+  private var defaultNavBarView: some View {
+    NavigationView {
+      ZStack {
+        Color.green.edgesIgnoringSafeArea(.all)
+        
+        NavigationLink("Go to the grey screen!") {
+          Color.gray
+            .edgesIgnoringSafeArea(.all)
+            .navigationTitle("Title #2")
+          // .navigationBarBackButtonHidden(true)
+        }
+      }
+      .navigationTitle("nav title here")
     }
   }
 }
@@ -26,3 +50,4 @@ struct AppNavBarView_Previews: PreviewProvider {
     AppNavBarView()
   }
 }
+

@@ -65,6 +65,11 @@
 		11DBF3F62685216900BF6B80 /* Stacks_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F52685216900BF6B80 /* Stacks_.swift */; };
 		11DBF3F8268521D900BF6B80 /* Spacer_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F7268521D900BF6B80 /* Spacer_.swift */; };
 		11DBF3FA2685224B00BF6B80 /* Initializer_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBF3F92685224B00BF6B80 /* Initializer_.swift */; };
+		11DFC8F72744095D00341B1F /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DFC8F62744095D00341B1F /* CustomNavBarView.swift */; };
+		11DFC8F927440FA100341B1F /* CustomNavBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DFC8F827440FA100341B1F /* CustomNavBarContainerView.swift */; };
+		11DFC8FB2744133F00341B1F /* CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DFC8FA2744133F00341B1F /* CustomNavView.swift */; };
+		11DFC8FD274414F100341B1F /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DFC8FC274414F100341B1F /* CustomNavLink.swift */; };
+		11DFC8FF27441D5900341B1F /* CustomNavBarPreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DFC8FE27441D5900341B1F /* CustomNavBarPreferenceKeys.swift */; };
 		11E053CF26BAC57900C5FB75 /* DownloadJSONDataWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E053CE26BAC57900C5FB75 /* DownloadJSONDataWithCombine.swift */; };
 		11E053D126BB20B200C5FB75 /* Timer_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E053D026BB20B200C5FB75 /* Timer_.swift */; };
 		11E070AA273173B70045D9F1 /* StandardTabBarImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E070A9273173B70045D9F1 /* StandardTabBarImplementation.swift */; };
@@ -150,6 +155,11 @@
 		11DBF3F52685216900BF6B80 /* Stacks_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacks_.swift; sourceTree = "<group>"; };
 		11DBF3F7268521D900BF6B80 /* Spacer_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer_.swift; sourceTree = "<group>"; };
 		11DBF3F92685224B00BF6B80 /* Initializer_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initializer_.swift; sourceTree = "<group>"; };
+		11DFC8F62744095D00341B1F /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
+		11DFC8F827440FA100341B1F /* CustomNavBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarContainerView.swift; sourceTree = "<group>"; };
+		11DFC8FA2744133F00341B1F /* CustomNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavView.swift; sourceTree = "<group>"; };
+		11DFC8FC274414F100341B1F /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
+		11DFC8FE27441D5900341B1F /* CustomNavBarPreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferenceKeys.swift; sourceTree = "<group>"; };
 		11E053CE26BAC57900C5FB75 /* DownloadJSONDataWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadJSONDataWithCombine.swift; sourceTree = "<group>"; };
 		11E053D026BB20B200C5FB75 /* Timer_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer_.swift; sourceTree = "<group>"; };
 		11E070A9273173B70045D9F1 /* StandardTabBarImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardTabBarImplementation.swift; sourceTree = "<group>"; };
@@ -307,6 +317,11 @@
 			isa = PBXGroup;
 			children = (
 				117F2EE22742D83800119C67 /* AppNavBarView.swift */,
+				11DFC8FE27441D5900341B1F /* CustomNavBarPreferenceKeys.swift */,
+				11DFC8FC274414F100341B1F /* CustomNavLink.swift */,
+				11DFC8F62744095D00341B1F /* CustomNavBarView.swift */,
+				11DFC8F827440FA100341B1F /* CustomNavBarContainerView.swift */,
+				11DFC8FA2744133F00341B1F /* CustomNavView.swift */,
 			);
 			path = CustomNavigationView;
 			sourceTree = "<group>";
@@ -465,6 +480,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11DBF3FA2685224B00BF6B80 /* Initializer_.swift in Sources */,
+				11DFC8F72744095D00341B1F /* CustomNavBarView.swift in Sources */,
 				112AF5A926E6A6A90086F631 /* AnyTransition_.swift in Sources */,
 				117F2EE32742D83800119C67 /* AppNavBarView.swift in Sources */,
 				110EF45026BC0ED5000BB897 /* NSCache_.swift in Sources */,
@@ -483,6 +499,7 @@
 				11E070AC273175030045D9F1 /* CustomTabBarView.swift in Sources */,
 				11BF96492689E2A500EE6697 /* CoreData_.swift in Sources */,
 				110C64DD26738DC900C3E7CF /* Text_.swift in Sources */,
+				11DFC8F927440FA100341B1F /* CustomNavBarContainerView.swift in Sources */,
 				11DBF3F8268521D900BF6B80 /* Spacer_.swift in Sources */,
 				11B1560F27383CBA0074BE64 /* CustomTabBarContainerView.swift in Sources */,
 				1173A7962696F31B00E24332 /* FruitsContainer.xcdatamodeld in Sources */,
@@ -500,6 +517,7 @@
 				1158F70B273A93860067B999 /* TabBarItem.swift in Sources */,
 				11DBF3F22684EDBA00BF6B80 /* Frame_.swift in Sources */,
 				1180A34C269F2736004E8E85 /* TypeAlias_.swift in Sources */,
+				11DFC8FF27441D5900341B1F /* CustomNavBarPreferenceKeys.swift in Sources */,
 				11C6BDF426FD1CA200B3415D /* Generics_.swift in Sources */,
 				11EE72E926BB3F81009E414D /* CustomerPublishersAndSubscribers.swift in Sources */,
 				11EF2A2326F13A230058FAE5 /* Animations_.swift in Sources */,
@@ -512,9 +530,11 @@
 				11BF96472689DBD300EE6697 /* Haptics_.swift in Sources */,
 				1147E6972696FE2C00697A11 /* Codable_.swift in Sources */,
 				11EF2A2526F13D9D0058FAE5 /* AnimationCurves_.swift in Sources */,
+				11DFC8FD274414F100341B1F /* CustomNavLink.swift in Sources */,
 				11F045772688BDBE00C75106 /* RotationGesture_.swift in Sources */,
 				110C64DF267390F900C3E7CF /* Shape_.swift in Sources */,
 				112EC87026FD26D800D8D7BF /* ViewBuilder_.swift in Sources */,
+				11DFC8FB2744133F00341B1F /* CustomNavView.swift in Sources */,
 				11A50501268526BF005FD3B6 /* ForEach_.swift in Sources */,
 				11541BAE273962D800A567CF /* TabBarItemsPreferenceKey.swift in Sources */,
 				110C64E326739E4B00C3E7CF /* Gradients_.swift in Sources */,
