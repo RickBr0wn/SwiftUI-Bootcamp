@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1104DDB0274526E300232D9B /* UIViewControllerRepresentable_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1104DDAF274526E300232D9B /* UIViewControllerRepresentable_.swift */; };
 		110C64CD26738B6F00C3E7CF /* SwiftUI_BootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110C64CC26738B6F00C3E7CF /* SwiftUI_BootcampApp.swift */; };
 		110C64CF26738B6F00C3E7CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110C64CE26738B6F00C3E7CF /* ContentView.swift */; };
 		110C64D126738B7200C3E7CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110C64D026738B7200C3E7CF /* Assets.xcassets */; };
@@ -95,6 +96,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1104DDAF274526E300232D9B /* UIViewControllerRepresentable_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentable_.swift; sourceTree = "<group>"; };
 		110C64C926738B6F00C3E7CF /* SwiftUI-Bootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Bootcamp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		110C64CC26738B6F00C3E7CF /* SwiftUI_BootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BootcampApp.swift; sourceTree = "<group>"; };
 		110C64CE26738B6F00C3E7CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -275,6 +277,7 @@
 				112EC86F26FD26D800D8D7BF /* ViewBuilder_.swift */,
 				11A29F51272335200011AC53 /* DependencyInjection_.swift */,
 				1111417D27447B080048B5E1 /* UIRepresentable_.swift */,
+				1104DDAF274526E300232D9B /* UIViewControllerRepresentable_.swift */,
 			);
 			path = Advanced;
 			sourceTree = "<group>";
@@ -543,6 +546,7 @@
 				11541BAE273962D800A567CF /* TabBarItemsPreferenceKey.swift in Sources */,
 				110C64E326739E4B00C3E7CF /* Gradients_.swift in Sources */,
 				11F0457B2688C53A00C75106 /* DragGestureTwo_.swift in Sources */,
+				1104DDB0274526E300232D9B /* UIViewControllerRepresentable_.swift in Sources */,
 				11A5050326852A6B005FD3B6 /* ScrollView_.swift in Sources */,
 				11E053D126BB20B200C5FB75 /* Timer_.swift in Sources */,
 				11A29F52272335200011AC53 /* DependencyInjection_.swift in Sources */,
