@@ -30,6 +30,7 @@
 		1138C3D527282C8B00CD0D55 /* UnitTestingViewModel_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138C3D427282C8B00CD0D55 /* UnitTestingViewModel_Tests.swift */; };
 		113A56CE26B9CE2B00FD62D0 /* DownloadJSONDataFromInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113A56CD26B9CE2B00FD62D0 /* DownloadJSONDataFromInternet.swift */; };
 		1147E6972696FE2C00697A11 /* Codable_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1147E6962696FE2C00697A11 /* Codable_.swift */; };
+		11495E5F274552CD003C0CCB /* Protocols_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11495E5E274552CD003C0CCB /* Protocols_.swift */; };
 		114F5E1E2704CB6A00F1737A /* PreferenceKey_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F5E1D2704CB6A00F1737A /* PreferenceKey_.swift */; };
 		114F5E202704CFEA00F1737A /* GettingGeometryFromAChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F5E1F2704CFEA00F1737A /* GettingGeometryFromAChildView.swift */; };
 		114F5E232704D38900F1737A /* ScrollViewOffsetPreferenceKey_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F5E222704D38900F1737A /* ScrollViewOffsetPreferenceKey_.swift */; };
@@ -122,6 +123,7 @@
 		1138C3D427282C8B00CD0D55 /* UnitTestingViewModel_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingViewModel_Tests.swift; sourceTree = "<group>"; };
 		113A56CD26B9CE2B00FD62D0 /* DownloadJSONDataFromInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadJSONDataFromInternet.swift; sourceTree = "<group>"; };
 		1147E6962696FE2C00697A11 /* Codable_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codable_.swift; sourceTree = "<group>"; };
+		11495E5E274552CD003C0CCB /* Protocols_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols_.swift; sourceTree = "<group>"; };
 		114F5E1D2704CB6A00F1737A /* PreferenceKey_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKey_.swift; sourceTree = "<group>"; };
 		114F5E1F2704CFEA00F1737A /* GettingGeometryFromAChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingGeometryFromAChildView.swift; sourceTree = "<group>"; };
 		114F5E222704D38900F1737A /* ScrollViewOffsetPreferenceKey_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKey_.swift; sourceTree = "<group>"; };
@@ -278,6 +280,7 @@
 				11A29F51272335200011AC53 /* DependencyInjection_.swift */,
 				1111417D27447B080048B5E1 /* UIRepresentable_.swift */,
 				1104DDAF274526E300232D9B /* UIViewControllerRepresentable_.swift */,
+				11495E5E274552CD003C0CCB /* Protocols_.swift */,
 			);
 			path = Advanced;
 			sourceTree = "<group>";
@@ -555,6 +558,7 @@
 				114F5E1E2704CB6A00F1737A /* PreferenceKey_.swift in Sources */,
 				11BF96402689D5BC00EE6697 /* SoundEffects.swift in Sources */,
 				114F5E202704CFEA00F1737A /* GettingGeometryFromAChildView.swift in Sources */,
+				11495E5F274552CD003C0CCB /* Protocols_.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
