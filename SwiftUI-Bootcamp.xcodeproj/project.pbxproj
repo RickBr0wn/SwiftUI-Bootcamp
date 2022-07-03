@@ -41,6 +41,7 @@
 		11541BAE273962D800A567CF /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11541BAD273962D800A567CF /* TabBarItemsPreferenceKey.swift */; };
 		1158F70B273A93860067B999 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1158F70A273A93860067B999 /* TabBarItem.swift */; };
 		1161798826872BBC002BF371 /* MagnificationGesture_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161798726872BBC002BF371 /* MagnificationGesture_.swift */; };
+		116BD14328723FB500C7106C /* doTryCatchAndThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116BD14228723FB500C7106C /* doTryCatchAndThrows.swift */; };
 		1173A7962696F31B00E24332 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1173A7942696F31B00E24332 /* FruitsContainer.xcdatamodeld */; };
 		1176992926ECF00E00308B90 /* MatchedGeometryEffect_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1176992826ECF00E00308B90 /* MatchedGeometryEffect_.swift */; };
 		117F2EE32742D83800119C67 /* AppNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117F2EE22742D83800119C67 /* AppNavBarView.swift */; };
@@ -138,6 +139,7 @@
 		11541BAD273962D800A567CF /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
 		1158F70A273A93860067B999 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 		1161798726872BBC002BF371 /* MagnificationGesture_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGesture_.swift; sourceTree = "<group>"; };
+		116BD14228723FB500C7106C /* doTryCatchAndThrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doTryCatchAndThrows.swift; sourceTree = "<group>"; };
 		1173A7952696F31B00E24332 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 		1176992826ECF00E00308B90 /* MatchedGeometryEffect_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffect_.swift; sourceTree = "<group>"; };
 		117F2EE22742D83800119C67 /* AppNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavBarView.swift; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 		110C64CB26738B6F00C3E7CF /* SwiftUI-Bootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				116BD14128723FA900C7106C /* Concurrency */,
 				112AF5A126E2C6690086F631 /* Advanced */,
 				11A505082685383A005FD3B6 /* Intermediate */,
 				110C64DB26738DAD00C3E7CF /* Basic */,
@@ -323,6 +326,14 @@
 				114F5E222704D38900F1737A /* ScrollViewOffsetPreferenceKey_.swift */,
 			);
 			path = PreferenceKey_;
+			sourceTree = "<group>";
+		};
+		116BD14128723FA900C7106C /* Concurrency */ = {
+			isa = PBXGroup;
+			children = (
+				116BD14228723FB500C7106C /* doTryCatchAndThrows.swift */,
+			);
+			path = Concurrency;
 			sourceTree = "<group>";
 		};
 		1173A7932696F2F200E24332 /* CoreData_ */ = {
@@ -536,6 +547,7 @@
 				110C64CF26738B6F00C3E7CF /* ContentView.swift in Sources */,
 				11BF963A2689BC4600EE6697 /* GeometryReader_.swift in Sources */,
 				11BF963E2689CB5A00EE6697 /* Mask_.swift in Sources */,
+				116BD14328723FB500C7106C /* doTryCatchAndThrows.swift in Sources */,
 				1158F70B273A93860067B999 /* TabBarItem.swift in Sources */,
 				11DBF3F22684EDBA00BF6B80 /* Frame_.swift in Sources */,
 				1180A34C269F2736004E8E85 /* TypeAlias_.swift in Sources */,
