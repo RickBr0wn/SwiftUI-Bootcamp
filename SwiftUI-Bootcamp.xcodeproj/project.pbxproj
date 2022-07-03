@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1104DDB0274526E300232D9B /* UIViewControllerRepresentable_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1104DDAF274526E300232D9B /* UIViewControllerRepresentable_.swift */; };
+		110B21582749A9540041DABA /* AdvancedCombine_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110B21572749A9540041DABA /* AdvancedCombine_.swift */; };
 		110C64CD26738B6F00C3E7CF /* SwiftUI_BootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110C64CC26738B6F00C3E7CF /* SwiftUI_BootcampApp.swift */; };
 		110C64CF26738B6F00C3E7CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110C64CE26738B6F00C3E7CF /* ContentView.swift */; };
 		110C64D126738B7200C3E7CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110C64D026738B7200C3E7CF /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 		113A56CE26B9CE2B00FD62D0 /* DownloadJSONDataFromInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113A56CD26B9CE2B00FD62D0 /* DownloadJSONDataFromInternet.swift */; };
 		1147E6972696FE2C00697A11 /* Codable_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1147E6962696FE2C00697A11 /* Codable_.swift */; };
 		11495E5F274552CD003C0CCB /* Protocols_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11495E5E274552CD003C0CCB /* Protocols_.swift */; };
+		114A0C6C275C24AF003FFDD4 /* FaceID_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114A0C6B275C24AF003FFDD4 /* FaceID_.swift */; };
 		114F5E1E2704CB6A00F1737A /* PreferenceKey_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F5E1D2704CB6A00F1737A /* PreferenceKey_.swift */; };
 		114F5E202704CFEA00F1737A /* GettingGeometryFromAChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F5E1F2704CFEA00F1737A /* GettingGeometryFromAChildView.swift */; };
 		114F5E232704D38900F1737A /* ScrollViewOffsetPreferenceKey_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F5E222704D38900F1737A /* ScrollViewOffsetPreferenceKey_.swift */; };
@@ -100,6 +102,7 @@
 
 /* Begin PBXFileReference section */
 		1104DDAF274526E300232D9B /* UIViewControllerRepresentable_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentable_.swift; sourceTree = "<group>"; };
+		110B21572749A9540041DABA /* AdvancedCombine_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedCombine_.swift; sourceTree = "<group>"; };
 		110C64C926738B6F00C3E7CF /* SwiftUI-Bootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Bootcamp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		110C64CC26738B6F00C3E7CF /* SwiftUI_BootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BootcampApp.swift; sourceTree = "<group>"; };
 		110C64CE26738B6F00C3E7CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -128,6 +131,7 @@
 		113A56CD26B9CE2B00FD62D0 /* DownloadJSONDataFromInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadJSONDataFromInternet.swift; sourceTree = "<group>"; };
 		1147E6962696FE2C00697A11 /* Codable_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codable_.swift; sourceTree = "<group>"; };
 		11495E5E274552CD003C0CCB /* Protocols_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols_.swift; sourceTree = "<group>"; };
+		114A0C6B275C24AF003FFDD4 /* FaceID_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceID_.swift; sourceTree = "<group>"; };
 		114F5E1D2704CB6A00F1737A /* PreferenceKey_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKey_.swift; sourceTree = "<group>"; };
 		114F5E1F2704CFEA00F1737A /* GettingGeometryFromAChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingGeometryFromAChildView.swift; sourceTree = "<group>"; };
 		114F5E222704D38900F1737A /* ScrollViewOffsetPreferenceKey_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKey_.swift; sourceTree = "<group>"; };
@@ -285,6 +289,8 @@
 				1111417D27447B080048B5E1 /* UIRepresentable_.swift */,
 				1104DDAF274526E300232D9B /* UIViewControllerRepresentable_.swift */,
 				11495E5E274552CD003C0CCB /* Protocols_.swift */,
+				110B21572749A9540041DABA /* AdvancedCombine_.swift */,
+				114A0C6B275C24AF003FFDD4 /* FaceID_.swift */,
 			);
 			path = Advanced;
 			sourceTree = "<group>";
@@ -519,6 +525,7 @@
 				11B1560F27383CBA0074BE64 /* CustomTabBarContainerView.swift in Sources */,
 				1173A7962696F31B00E24332 /* FruitsContainer.xcdatamodeld in Sources */,
 				110EF44E26BBF4A6000BB897 /* FileManager_.swift in Sources */,
+				114A0C6C275C24AF003FFDD4 /* FaceID_.swift in Sources */,
 				110C64E126739A8E00C3E7CF /* Color_.swift in Sources */,
 				114F5E232704D38900F1737A /* ScrollViewOffsetPreferenceKey_.swift in Sources */,
 				11A0996326EDE5CA00A9BECD /* CustomShapes_.swift in Sources */,
@@ -557,6 +564,7 @@
 				110C64E326739E4B00C3E7CF /* Gradients_.swift in Sources */,
 				11F0457B2688C53A00C75106 /* DragGestureTwo_.swift in Sources */,
 				1104DDB0274526E300232D9B /* UIViewControllerRepresentable_.swift in Sources */,
+				110B21582749A9540041DABA /* AdvancedCombine_.swift in Sources */,
 				11A5050326852A6B005FD3B6 /* ScrollView_.swift in Sources */,
 				11E053D126BB20B200C5FB75 /* Timer_.swift in Sources */,
 				11A29F52272335200011AC53 /* DependencyInjection_.swift in Sources */,
